@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    width: 100%;
+    background-color: #ee0606;
+    /* Change background color to white */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 2px solid #a55555;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #8d6060;
+    background-color: #926a6a;
+    /* Change background color to white */
+}
+
+input:focus {
+    border-color: #32a732;
+}
+
+button {
+    background-color: #36cc36;
+    color: #be3939;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #31b831;
+}

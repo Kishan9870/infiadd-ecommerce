@@ -1,0 +1,55 @@
+$primary-color: #006400;
+$background-color: #008000;
+$common-color: #004000;
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    width: 100%;
+    background-color: $background-color;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #333;
+    background-color: $primary-color;
+}
+
+input:focus {
+    border-color: $common-color;
+}
+
+button {
+    background-color: $common-color;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: $common-color;
+}
