@@ -30,17 +30,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              {
-                "input": "src/assets/themes/blueviolet.scss",
-                "bundleName": "blueviolet",
-                "inject": false
-              },
-              {
-                "input": "src/assets/themes/darkgreen.scss",
-                "bundleName": "darkgreen",
-                "inject": false
-              }
+              "src/styles.scss"
             ],
             "scripts": []
           },
