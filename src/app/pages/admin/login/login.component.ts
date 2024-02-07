@@ -17,6 +17,11 @@ export class LoginComponent {
     @Inject(DOCUMENT) private document: Document) { }
 
   blueVioletClick() {
+
+    document.body.setAttribute(
+      'data-theme',
+      'blueviolet'
+    );
     // var cards = this.document.getElementsByClassName('card');
 
     // if (cards.length > 0) {
@@ -24,12 +29,16 @@ export class LoginComponent {
     //   card.style.backgroundColor = '#8A2BE2';
     // }
     // this.theme.loadTheme('blueviolet');
-    this.theme.loadTheme('white');
+    // this.theme.loadTheme('white');
 
   }
 
   darkGreenClick() {
-    this.theme.loadTheme('light');
+    document.body.setAttribute(
+      'data-theme',
+      'darkgreen'
+    );
+    // this.theme.loadTheme('light');
     // var cards = this.document.getElementsByClassName('card');
 
     // if (cards.length > 0) {

@@ -2,54 +2,55 @@
 // $background-color: #f8f8f8;
 // $common-color: #ff9900;
 
-// .container {
-//     width: 100%;
-//     max-width: 400px;
-// }
+.container {
+    width: 100%;
+    max-width: 400px;
+}
 
-// .card {
-//     width: 100%;
-//     background-color: $background-color;
-//     padding: 20px;
-//     border-radius: 12px;
-//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-// }
+.card {
+    width: 100%;
+    // background-color: $background-color;
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-// h2 {
-//     text-align: center;
-//     color: #333;
-// }
+h2 {
+    text-align: center;
+    color: #333;
+}
 
-// form {
-//     display: flex;
-//     flex-direction: column;
-// }
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-// input {
-//     padding: 10px;
-//     margin-bottom: 12px;
-//     border: 2px solid #ddd;
-//     border-radius: 8px;
-//     transition: border-color 0.3s ease-in-out;
-//     outline: none;
-//     color: #333;
-//     background-color: $primary-color;
-// }
+input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #333;
+    background-color: var(--primary-color);
+}
 
-// input:focus {
-//     border-color: $common-color;
-// }
+input:focus {
+    border-color: var(--common-color);
+}
 
-// button {
-//     background-color: $common-color;
-//     color: #fff;
-//     padding: 10px;
-//     border: none;
-//     border-radius: 8px;
-//     cursor: pointer;
-//     transition: background-color 0.3s ease-in-out;
-// }
+button {
+    background-color: var(--common-color);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--background-color) 0.3s ease-in-out;
+}
 
-// button:hover {
-//     background-color: $common-color;
-// }
+button:hover {
+    background-color: var(--common-color);
+}
