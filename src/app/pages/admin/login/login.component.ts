@@ -11,4 +11,9 @@ import { RouterOutlet } from '@angular/router';
 
 export class LoginComponent {
 
+  containerActive: boolean = false;
+
+  toggleContainer() {
+    this.containerActive = !this.containerActive;
+  }
 }
