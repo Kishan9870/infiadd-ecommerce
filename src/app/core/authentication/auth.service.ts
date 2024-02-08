@@ -7,22 +7,24 @@ export class AuthService {
 
   constructor() { }
 
-  login(email: string, password: string): Promise<boolean> {
-    return new Promise((resolve) => {
-      const users = [
-        { email: 'user@example.com', password: 'password123' },
-        { email: 'anotheruser@example.com', password: 'securePassword' }
-      ];
+  async login(email: string, password: string) {
+    try {
+      debugger
+      const storedUsers = localStorage.getItem('users');
+      const users: { email: string; password: string }[] = storedUsers ? JSON.parse(storedUsers) : [];
 
+      // Simulate an asynchronous operation if needed
+      // await new Promise(resolve => setTimeout(resolve, 1000));
+
+      // Find the user by email and password
       const user = users.find(u => u.email === email && u.password === password);
-
-      setTimeout(() => {
-        if (user) {
-          resolve(true);
-        } else {
-          resolve(false);
-        }
-      }, 1000);
-    });
+      if (user) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (error) {
+      return false;
+    }
   }
 }
