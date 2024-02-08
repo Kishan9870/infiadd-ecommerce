@@ -17,6 +17,13 @@
     height: 100vh;
 }
 
+app-style-switcher {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+}
+
 .container {
     background-color: var(--container-bg-color);
     border-radius: 30px;
