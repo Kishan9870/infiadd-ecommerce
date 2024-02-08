@@ -1,16 +1,19 @@
 [data-theme="dark"] {
-    --primary-color: #1e1e1e;
-    --secondary-color: #424242;
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
     --background-color: #121212;
+    --background-color-gradient: #1f1f1f;
     --container-bg-color: #1e1e1e;
     --container-shadow-color: rgba(255, 255, 255, 0.1);
     --input-bg-color: #333;
-    --text-color: #eee;
-    --link-color: #4a90e2;
-    --button-bg-color: #4a90e2;
+    --text-color: #fff;
+    --link-color: #80d8ff;
+    --border-color: #333;
+    --button-bg-color: var(--primary-color);
     --button-text-color: #fff;
     --button-border-color: transparent;
-    --toggle-bg-gradient: linear-gradient(to right, #333, #666);
-    --social-icon-border-color: #666;
-    --social-icon-hover-border-color: #999;
+    --toggle-text-color: #fff;
+    --toggle-bg-gradient: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+    --social-icon-border-color: #555;
+    --social-icon-hover-border-color: #fff;
 }
