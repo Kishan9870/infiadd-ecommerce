@@ -23,6 +23,11 @@ export class StyleSwitcherComponent {
         'data-theme',
         'dark'
       );
+    } else if (themeValue === "yellow") {
+      document.body.setAttribute(
+        'data-theme',
+        'yellow'
+      );
     }
   }
 }
